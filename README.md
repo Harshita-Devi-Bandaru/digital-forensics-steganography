@@ -71,8 +71,29 @@ This demonstrates how attackers may use steganography to hide sensitive informat
 
 ## 📁 Project Structure
 
+digital-forensics-steganography/
+│
+├── README.md
+├── sample-image.jpg
+├── hidden-message.txt
+└── screenshots/
+├── steganography-encoding.png
+├── ftk-evidence-loading.png
+├── ftk-directory-listing.png
 
 ---
+
+## 📸 Project Execution Screenshots   
+
+### 🔹 Steganography Encoding Process
+![Encoding](screenshots/steganography-encoding.png)
+
+### 🔹 FTK Evidence Loading
+![FTK](screenshots/ftk-evidence-loading.png)
+
+### 🔹 Directory Listing
+![Directory](screenshots/ftk-directory-listing.png)
+
 
 ## ⚠️ Key Insight
 Even normal-looking files like images can contain hidden sensitive data. Digital forensic tools play a critical role in identifying and recovering such concealed information.
